@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Logo = () => {
   return (
@@ -7,15 +7,15 @@ const Logo = () => {
         <img
           className="img-fluid rounded-pill d-block"
           src="images/profile.jpg.jfif"
-          title="I'm Simone"
+          title="I'm Muzaffer"
           alt=""
         />
       </span>
       <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-        Simone Olivia
+        Muzaffer Yenice
       </h1>
     </a>
   );
-}
+};
 
-export default Logo
+export default Logo;

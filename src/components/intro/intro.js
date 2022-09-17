@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 const Intro = () => {
@@ -8,7 +8,7 @@ const Intro = () => {
         <div className="hero-mask opacity-8 bg-dark"></div>
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: "url('images/intro-bg.jpg.jfif')" }}
+          style={{ backgroundImage: "url('images/Muzafferyenice.png')" }}
         ></div>
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
@@ -18,13 +18,15 @@ const Intro = () => {
                 <h1 className="text-white text-18">
                   <TypeAnimation
                     sequence={[
-                      "I'm Simone Olivia",
+                      "I'm Muzaffer Yenice",
                       1000, // Waits 1s
                       "I'm a Freelancer.",
                       1000, // Waits 1s
-                      "I'm a Photographer.",
+                      "I'm a Web Developer.",
                       1000, // Waits 1s
                       "I'm a Designer.",
+                      1000, // Waits 1s
+                      "I'm a Guitarist.",
                       () => {
                         console.log("Done typing!"); // Place optional callbacks anywhere in the array
                       },
@@ -39,9 +41,7 @@ const Intro = () => {
                 <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                   <span className="typed"></span>
                 </h2>
-                <p className="text-5 text-light mb-4">
-                  based in Los Angeles, California.
-                </p>
+                <p className="text-5 text-light mb-4">based in Turkey</p>
                 <a
                   href="#contact"
                   className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"
@@ -65,4 +65,4 @@ const Intro = () => {
   );
 };
 
-export default Intro
+export default Intro;

@@ -5,17 +5,17 @@ const ContactInfo = () => {
     <>
       <h2 className="mb-3 text-5 text-uppercase">Address</h2>
       <p className="text-3 mb-4">
-        4th Floor, Plot No.22,
+        1th Floor, Plot No.18,
         <br />
-        145 Murphy Canyon Rd.
+        145 sokullu mehmet pasa Rd.
         <br />
-        San Diego CA 2028
+        city
       </p>
       <p className="text-3 mb-1">
         <span className="text-primary text-4 me-2">
           <i className="fas fa-phone"></i>
         </span>
-        (060) 444 434 444
+        (090) 545 130 0955
       </p>
       <p className="text-3 mb-1">
         <span className="text-primary text-4 me-2">
@@ -27,7 +27,7 @@ const ContactInfo = () => {
         <span className="text-primary text-4 me-2">
           <i className="fas fa-envelope"></i>
         </span>
-        chat@simone.com
+        muzafferyenicet@gmail.com
       </p>
       <h2 className="mb-3 text-5 text-uppercase">Follow Me</h2>
       <ul className="social-icons justify-content-center justify-content-md-start">

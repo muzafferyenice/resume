@@ -11,7 +11,7 @@ const About = () => {
         <div className="row gy-5">
           <div className="col-lg-7 col-xl-8 text-center text-lg-start">
             <h2 className="text-7 fw-600 mb-3">
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
+              I'm <span className="text-primary">Muzaffer Yenice,</span> a Web
               Developer
             </h2>
             <p>
@@ -30,17 +30,19 @@ const About = () => {
             <div className="ps-lg-4">
               <ul className="list-style-2">
                 <li className="">
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Muzaffer Yenice
                 </li>
                 <li className="">
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:muzafferyenicet@gmail.com">
+                    muzafferyenicet@gmail.com
+                  </a>
                 </li>
                 <li className="">
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>32
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles, California
+                  <span className="fw-600 me-2">From:</span>Turkey
                 </li>
               </ul>
               <a href="#" className="btn btn-primary rounded-pill">
@@ -63,7 +65,6 @@ const About = () => {
             </div>
             <div className="col-6 col-md-3">
               <Counter name="Get Awards" value="20" sign="+" />
-              
             </div>
           </div>
         </div>

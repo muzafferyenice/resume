@@ -9,7 +9,7 @@ const Footer = () => {
             <p className="mb-3 mb-lg-0">
               Copyright © 2022{" "}
               <a href="#" className="fw-500">
-                Simone
+                Muzaffer
               </a>
               . All Rights Reserved.
             </p>
@@ -42,10 +42,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-
-    
-
     </footer>
   );
 };

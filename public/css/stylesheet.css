@@ -2527,11 +2527,12 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   left: 0;
   height: 100%;
   width: 100%;
-  @media (max-width: 992px) {
+}
+@media (max-width: 992px) {
+  .hero-bg {
     margin-top: 10vh;
   }
 }
-
 .hero-wrap .hero-mask {
   z-index: 1;
 }

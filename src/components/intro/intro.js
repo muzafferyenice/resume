@@ -8,7 +8,10 @@ const Intro = () => {
         <div className="hero-mask opacity-8 bg-dark"></div>
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: "url('images/Muzafferyenice.png')" }}
+          style={{
+            backgroundImage: "url('images/Muzafferyenice.png')",
+            backgroundPosition: "top center",
+          }}
         ></div>
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
@@ -19,13 +22,13 @@ const Intro = () => {
                   <TypeAnimation
                     sequence={[
                       "I'm Muzaffer Yenice",
-                      1000, // Waits 1s
+                      1500, // Waits 1s
                       "I'm a Freelancer.",
-                      1000, // Waits 1s
-                      "I'm a Web Developer.",
-                      1000, // Waits 1s
-                      "I'm a Designer.",
-                      1000, // Waits 1s
+                      1500, // Waits 1s
+                      "I'm a Full Stack Developer.",
+                      1500, // Waits 1s
+                      "I'm a WEB Designer.",
+                      1500, // Waits 1s
                       "I'm a Guitarist.",
                       () => {
                         console.log("Done typing!"); // Place optional callbacks anywhere in the array

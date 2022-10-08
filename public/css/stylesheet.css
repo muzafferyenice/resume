@@ -2377,6 +2377,9 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   position: relative;
   overflow: hidden;
 }
+.hero-bg parallax{
+  background-position:top center;
+}
 
 .hero-wrap .hero-mask, .hero-wrap .hero-bg, .hero-wrap .hero-bg-slideshow {
   position: absolute;

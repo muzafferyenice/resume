@@ -10,7 +10,7 @@ const Intro = () => {
           className="hero-bg parallax"
           style={{
             backgroundImage: "url('images/Muzafferyenice.png')",
-            backgroundPosition: "top center",
+            backgroundPosition: "top-center",
           }}
         ></div>
         <div className="hero-content section d-flex min-vh-100">
